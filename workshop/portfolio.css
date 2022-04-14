@@ -1,0 +1,45 @@
+.başlık{
+    font-family: 'Audiowide', cursive;
+    font-size: 40px;
+}
+#container{
+    font-size: 25px;
+    color: white;
+    background-color: black;
+    border-radius: 5px;
+    height: 75px;
+    margin: 0px;
+}
+
+#c2{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)),url(https://images.unsplash.com/photo-1583508915901-b5f84c1dcde1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80) ;
+    background-position: ;
+    color: white;
+    background-size: cover;
+    height: 800px;
+    font-family: 'Audiowide', cursive;
+    border-top: 5px solid red;
+}
+#kırmızı{
+    color: red;
+}
+.başka{
+    text-align: right;
+    text-decoration: none;
+    color: white;
+    font-family: 'Audiowide', cursive;
+}
+.başka:hover{
+    color: red;
+
+}
+#span1{
+    text-align: right;
+    font-size: 30px;
+    margin-left: 800px;
+}
+#c2{
+    font-size: 25px;
+    text-align: center;
+    margin: 0px;
+}
