@@ -1,0 +1,212 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    font-weight: 900;
+}
+body{
+    background-color: black;
+}
+header h1{
+    display: inline-block;
+    margin: 2rem;
+    background: linear-gradient(to right top, #FF9601, rgb(112, 81, 2),#ff9705);
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 4rem;
+}
+
+#header{
+    display: inline-block;
+    margin: 2rem;
+}
+#header a{
+    text-decoration: none;
+    color: white;
+}
+#header a:hover{
+    color: rgb(255,150,1) ;
+}
+#header #arama{
+    display: inline-block;
+    border: 1px solid rgb(255,150,1);
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+#header #search{
+    background-color: black;
+    border: none;
+    color: white;
+    font-size: 1rem;
+    font-weight: 500;
+    width: 10rem;
+    height: 2rem;
+}
+#header #arama #button{
+    background-color: rgb(255,150,1);
+    margin: 0;
+    padding: 14px;
+    text-align: center;
+    cursor: pointer;
+    position: relative;
+    top: 1.49px;
+    left: 10px;
+    border-radius: 5px;
+}
+#header #arama #search:hover{
+    border: none;
+}
+
+#header{
+    float: right;
+    word-spacing: 5rem;
+}
+
+section{
+    color: white;
+    display: inline-block;
+    margin: 5rem;
+    background-image: url("https://images.unsplash.com/photo-1651127696352-47f264d433f5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1178&q=80");
+    background-repeat: no-repeat;
+}
+section #genel{
+    display: inline-block;
+}
+section #genel h1{
+    font-size: 4rem
+}
+
+section #genel h1 span{
+    color: rgb(255,150,1);
+}
+section #genel p{
+    font-weight: 700;
+    font-size: 2rem;
+    margin-top: 1.5rem;
+    /* text-indent: 30px; */
+}
+
+section #genel #img1{
+    width: 350px;
+    height: 550px;
+    position: relative;
+    left: 60rem;
+    bottom: 25rem;
+    border-radius: 2rem;
+    z-index: 1;
+}
+section #genel #img2{
+    width: 350px;
+    height: 500px;
+    position: relative;
+    left: 45rem;
+    bottom: 15rem;
+    border-radius: 2rem;
+    z-index: 2;
+}
+section #genel #img3{
+    width: 300px;
+    height: 450px;
+    position: relative;
+    left: 12rem;
+    bottom: 10rem;
+    border-radius: 2rem;
+    z-index: 3;
+}
+
+section #genel #join{
+    position: relative;
+    top: 3rem;
+    left: 2rem;
+    width: 9rem;
+    height: 3rem;
+    background-color: rgb(255,150,1);
+    font-weight: 700;
+    border-radius: 10px;
+    /* bottom: 55rem; */
+}
+
+section #genel #join:hover{
+    color: white;
+    box-shadow: 5px 5px 5px 5px white;
+}
+
+section #call{
+    /* display: inline-block; */
+    position: relative;
+    max-width: 300rem;
+    left: 23rem;
+    top: rem;
+    background-color: white;
+    width: 40rem;
+    height: 25rem;
+    text-align: center;
+    border-radius: 10rem;
+    color: black;
+}
+
+section #call h1{
+    font-size: 3rem;
+    margin: 1rem;
+    background: linear-gradient(to right top, black, grey,black);
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+}
+
+section #call input{
+    margin-bottom: 10px;
+    margin-top: 10px;
+    position: relative;
+    right: 3rem;
+    width: 15rem;
+    height: 3rem;
+    font-size: 1rem;
+    background-color: white;
+    border: none;
+    padding: 5px;
+    color: white;
+}
+
+section #call button{
+    background-color: white;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    padding: 1rem;
+    cursor: pointer;
+    border-radius: 1rem;
+    font-size: 1rem;
+}
+section #call button:hover{
+    background-color: rgb(255,150,1);
+}
+section #call p{
+    font-size: 1.5rem;
+    color: rgb(255,150,1);
+}
+
+section #call #social{
+    display: inline-block;
+    /* background-color: white; */
+    margin: 1rem;
+    border: 1px solid white;
+    width: 20rem;
+    height: 5rem;
+}
+
+section #call #social a{
+    margin: 1rem;
+    color: white;
+    position: relative;
+    width: 3rem;
+    top: 1rem;
+}
+
+section #call #social a:hover{
+    color: rgb(255,150,1);
+}
